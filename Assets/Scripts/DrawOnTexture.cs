@@ -48,5 +48,4 @@ public class DrawOnTexture : MonoBehaviour
         baseTexture.SetPixel((int)pixelUV.x, (int)pixelUV.y, colorToSet);
         baseTexture.Apply();
     }
-
 }
